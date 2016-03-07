@@ -12,9 +12,10 @@ gem 'mysql2', '~> 0.3.18'
 # authentication/authorization
 gem 'bcrypt'
 gem 'devise', '3.2.4'
-
 # misc
 
+
+gem 'bullet', '~> 5.0'
 gem 'actionpack-page_caching'
 gem 'angular-ui-bootstrap-rails'
 gem 'angular_rails_csrf'
@@ -27,6 +28,7 @@ gem 'clockwork'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'fog', '~> 1.37'
 gem 'font-awesome-rails'
+gem 'font_assets', '~> 0.1.12'
 gem 'haml-rails'
 gem 'httparty'
 gem 'jquery-rails'
@@ -64,6 +66,7 @@ group :development, :test do
   gem 'railroady', '~> 1.4', '>= 1.4.2' # Visualize model and controller as UML and output to SVG
   gem 'rspec-rails'
   gem 'rubocop', '~> 0.37.2', require: false
+  gem 'ruby-lint', '~> 2.1'
   gem 'shoulda-matchers'
   gem 'simplecov'
   gem 'sqlite3'
